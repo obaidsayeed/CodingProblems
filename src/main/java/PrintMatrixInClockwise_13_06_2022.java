@@ -1,3 +1,41 @@
+//Asked by Amazon.
+//
+//Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
+//
+//For example, given the following matrix:
+//
+//[[1,  2,  3,  4,  5],
+// [6,  7,  8,  9,  10],
+// [11, 12, 13, 14, 15],
+// [16, 17, 18, 19, 20]]
+//You should print out the following:
+//
+//1
+//2
+//3
+//4
+//5
+//10
+//15
+//20
+//19
+//18
+//17
+//16
+//11
+//6
+//7
+//8
+//9
+//14
+//13
+//12
+
+//Constraints:
+//m == matrix.length
+//n == matrix[i].length
+//1 <= m, n <= 10
+//-100 <= matrix[i][j] <= 100
 public class PrintMatrixInClockwise_13_06_2022 {
     public static void solution(int[][] mat){
         int k = 0,m = mat.length,l = 0,n = mat[0].length;
