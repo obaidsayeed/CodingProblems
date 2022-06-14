@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PrintMatrixInClockwise_13_06_2022Test" time="0.005" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="BishopAttackOnChessBoard_14_06_2022Test" time="0.023" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,8 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/surefire/surefirebooter9909313270105359011.jar /home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/surefire 2022-06-13T16-36-40_689-jvmRun1 surefire504581881540221272tmp surefire_013854830840428859432tmp"/>
+    <property name="sun.java.command" value="/home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/surefire/surefirebooter2209211169987713332.jar /home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/surefire 2022-06-14T15-02-29_153-jvmRun1 surefire6974548011023155981tmp surefire_08286270649554969149tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="BishopAttackOnChessBoard_14_06_2022Test"/>
     <property name="surefire.test.class.path" value="/home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/test-classes:/home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/classes:/home/ubaidullahmohammed/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/ubaidullahmohammed"/>
@@ -32,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/surefire/surefirebooter9909313270105359011.jar"/>
+    <property name="surefire.real.class.path" value="/home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/surefire/surefirebooter2209211169987713332.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.15+10-Ubuntu-0ubuntu0.20.04.1"/>
     <property name="user.name" value="ubaidullahmohammed"/>
@@ -57,9 +58,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testCase_1" classname="PrintMatrixInClockwise_13_06_2022Test" time="0.002"/>
-  <testcase name="testCase_2" classname="PrintMatrixInClockwise_13_06_2022Test" time="0.001"/>
-  <testcase name="testCase_3" classname="PrintMatrixInClockwise_13_06_2022Test" time="0"/>
-  <testcase name="testCase_4" classname="PrintMatrixInClockwise_13_06_2022Test" time="0"/>
-  <testcase name="testCase_5" classname="PrintMatrixInClockwise_13_06_2022Test" time="0.001"/>
+  <testcase name="testCase_1" classname="BishopAttackOnChessBoard_14_06_2022Test" time="0.003"/>
+  <testcase name="testCase_2" classname="BishopAttackOnChessBoard_14_06_2022Test" time="0"/>
+  <testcase name="testCase_3" classname="BishopAttackOnChessBoard_14_06_2022Test" time="0.001"/>
+  <testcase name="testCase_4" classname="BishopAttackOnChessBoard_14_06_2022Test" time="0"/>
+  <testcase name="testCase_5" classname="BishopAttackOnChessBoard_14_06_2022Test" time="0"/>
 </testsuite>
