@@ -8,7 +8,7 @@
 public class NthPerfectNumber_16_06_2022 {
 
     public static int solution1(int n){
-        if(n < 1){
+        if (n < 1){
             return -1;
         }
         return 9*(n + 1) + 1;
