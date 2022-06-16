@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="BishopAttackOnChessBoard_14_06_2022Test" time="0.001" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="GeneratePowerSet_13_05_2022Test" time="0.008" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -57,9 +57,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testCase_1" classname="BishopAttackOnChessBoard_14_06_2022Test" time="0"/>
-  <testcase name="testCase_2" classname="BishopAttackOnChessBoard_14_06_2022Test" time="0.001"/>
-  <testcase name="testCase_3" classname="BishopAttackOnChessBoard_14_06_2022Test" time="0"/>
-  <testcase name="testCase_4" classname="BishopAttackOnChessBoard_14_06_2022Test" time="0"/>
-  <testcase name="testCase_5" classname="BishopAttackOnChessBoard_14_06_2022Test" time="0"/>
+  <testcase name="testCase_1" classname="GeneratePowerSet_13_05_2022Test" time="0.001"/>
+  <testcase name="testCase_2" classname="GeneratePowerSet_13_05_2022Test" time="0.004"/>
+  <testcase name="testCase_3" classname="GeneratePowerSet_13_05_2022Test" time="0.001"/>
+  <testcase name="testCase_4" classname="GeneratePowerSet_13_05_2022Test" time="0"/>
+  <testcase name="testCase_5" classname="GeneratePowerSet_13_05_2022Test" time="0.001"/>
 </testsuite>
