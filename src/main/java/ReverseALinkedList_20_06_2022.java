@@ -23,6 +23,9 @@ public class ReverseALinkedList_20_06_2022 {
     }
 
     public static Node solution(Node head){
+        if ( head.next == null){
+            return head;
+        }
         Node prev = null;
         Node curr = head;
         Node temp = null;
