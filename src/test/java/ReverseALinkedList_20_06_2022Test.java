@@ -17,7 +17,7 @@ public class ReverseALinkedList_20_06_2022Test {
         }
         System.out.println("null");
 
-        head = list.solution(head);
+        head = list.solution2(head);
         temp = head;
         while (temp != null){
             System.out.print(temp.val + "->");

@@ -41,4 +41,14 @@ public class ReverseALinkedList_20_06_2022 {
         return prev;
     }
 
+    public static Node solution2(Node head){
+        if(head == null || head.next == null){
+            return head;
+        }
+        Node res = solution2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return res;
+    }
+
 }
