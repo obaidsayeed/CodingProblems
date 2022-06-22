@@ -41,15 +41,24 @@ public class LongestIncreasingSubSequence_21_06_2022 {
         // DP apprach
         // Time Complexity is O(n^2)
         // Space Complexity is O(n)
+
+        // Intializing array to keep track of max length of LIS at ith index
         int[] lis = new int[n];
         Arrays.fill(lis,1);
+
+        // Iterating from index 1 to n
         for(int i = 1;i < n;i++){
+            // Iteratng from index 0 to i - 1
             for(int j = 0;j < i;j++){
+                // Check if curr element is greater than previous jth element and
+                // check if the max length of LIS at ith index is less than max length at jth + 1
                 if ( nums[i] > nums[j] && lis[i] < lis[j] + 1){
                     lis[i] = lis[j] + 1;
                 }
             }
         }
+
+        // Iterate through the dp array to get max length of LIS
         for(int i = 0; i < n;i++){
             if(max_length < lis[i]){
                 max_length = lis[i];
