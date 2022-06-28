@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: GenerateAllCombinations_27_06_2022Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! - in GenerateAllCombinations_27_06_2022Test
+testCase_1(GenerateAllCombinations_27_06_2022Test)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 50 out of bounds for length 10
+	at GenerateAllCombinations_27_06_2022Test.testCase_1(GenerateAllCombinations_27_06_2022Test.java:6)
+

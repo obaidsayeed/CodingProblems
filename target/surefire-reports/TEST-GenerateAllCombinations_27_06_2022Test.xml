@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="GenerateAllCombinations_27_06_2022Test" time="0.017" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/test-classes:/home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/classes:/home/ubaidullahmohammed/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:/home/ubaidullahmohammed/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/surefire/surefirebooter9183721241028248850.jar /home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/surefire 2022-06-27T14-42-07_822-jvmRun1 surefire4452888685048187950tmp surefire_012299361104412838123tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="GenerateAllCombinations_27_06_2022Test"/>
+    <property name="surefire.test.class.path" value="/home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/test-classes:/home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/classes:/home/ubaidullahmohammed/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:/home/ubaidullahmohammed/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/ubaidullahmohammed"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/ubaidullahmohammed/IdeaProjects/CodingProblems"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/ubaidullahmohammed/IdeaProjects/CodingProblems/target/surefire/surefirebooter9183721241028248850.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.15+10-Ubuntu-0ubuntu0.20.04.1"/>
+    <property name="user.name" value="ubaidullahmohammed"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.13.0-51-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/ubaidullahmohammed/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="user.dir" value="/home/ubaidullahmohammed/IdeaProjects/CodingProblems"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="11.0.15+10-Ubuntu-0ubuntu0.20.04.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testCase_1" classname="GenerateAllCombinations_27_06_2022Test" time="0.005">
+    <error message="Index 50 out of bounds for length 10" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: Index 50 out of bounds for length 10
+	at GenerateAllCombinations_27_06_2022Test.testCase_1(GenerateAllCombinations_27_06_2022Test.java:6)
+</error>
+  </testcase>
+</testsuite>
