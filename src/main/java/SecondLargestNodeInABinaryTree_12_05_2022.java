@@ -5,7 +5,9 @@ class TreeNode{
     TreeNode left;
     TreeNode right;
     TreeNode(int x){
-        val = x;
+        this.val = x;
+        this.left = null;
+        this.right = null;
     }
 }
 public class SecondLargestNodeInABinaryTree_12_05_2022 {
