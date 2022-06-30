@@ -11,6 +11,8 @@
 //1 1 0 0 1
 //1 1 0 0 1
 
+// Dry Run : https://docs.google.com/document/d/1ZEpdxVxiAVElMEYGJepZ4N3TO4Q8Mm20Whs7yq1rum0/edit
+
 public class CountIslandsInAMatrix_30_06_2022 {
 
     public static void DFS(int[][] M, int i, int j, int ROW, int COL) {
